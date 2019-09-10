@@ -1,4 +1,5 @@
 ﻿using System;
+using Microsoft.SmallBasic.Library;
 
 namespace turtlegame
 {
@@ -6,7 +7,7 @@ namespace turtlegame
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Feed the turtle!");
+            Turtle.Move(100);
         }
     }
 }
